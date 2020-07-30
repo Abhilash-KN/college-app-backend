@@ -18,7 +18,7 @@ Add the following line to **.env** file
 
 ## Running server locally
 
-Place the build folder created in the frontend directory in the root directory of backend.
+Place the build folder of frontend in the root directory. 
 Change **app.listen(process.env.PORT)** to **app.listen(3000)** in server.js file to run server on localhost:3000
 
 To start
